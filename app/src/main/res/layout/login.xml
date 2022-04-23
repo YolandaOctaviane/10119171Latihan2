@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/picton_blue"
+    tools:context=".Login">
+
+    //logo blood share
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/dimen20">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_welcome_logo"
+            android:layout_gravity="center"
+            android:layout_marginTop="80dp"/>
+
+        //text username
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/username"
+            style="@style/login1"
+            android:backgroundTint="@color/white"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="@dimen/dimen20"
+            android:layout_marginRight="@dimen/dimen20"/>
+
+        //text password
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/password"
+            style="@style/login1"
+            android:backgroundTint="@color/white"
+            android:layout_marginTop="@dimen/dimen10"
+            android:layout_marginLeft="@dimen/dimen20"
+            android:layout_marginRight="@dimen/dimen20"/>
+
+        //button login
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/login"
+            style="@style/Register"
+            android:layout_marginTop="@dimen/dimen20"
+            android:layout_marginRight="@dimen/dimen20"
+            android:layout_marginLeft="@dimen/dimen20"/>
+
+        //text OR
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/or"
+            style="@style/login1"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/dimen20"
+            android:layout_marginLeft="@dimen/dimen20"
+            android:layout_marginRight="@dimen/dimen20"/>
+
+        //button connect to facebook
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/facebook"
+            style="@style/Register"
+            android:drawableLeft="@drawable/ic_welcome_fb_login"
+            android:paddingLeft="60dp"
+            android:paddingRight="90dp"
+            android:layout_marginTop="@dimen/dimen20"
+            android:layout_marginRight="@dimen/dimen20"
+            android:layout_marginLeft="@dimen/dimen20"/>
+
+        //text doesn't have account
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="@dimen/dimen20">
+
+            //text register (bisa di tekan)
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/doesnt"
+                style="@style/login1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/register"
+                android:layout_marginLeft="5dp"
+                style="@style/textbold"
+                android:onClick="register"/>
+        </LinearLayout>
+</LinearLayout>
+</RelativeLayout>
