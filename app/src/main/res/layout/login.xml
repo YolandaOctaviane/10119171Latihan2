@@ -17,16 +17,17 @@
             android:layout_height="wrap_content"
             android:src="@drawable/ic_welcome_logo"
             android:layout_gravity="center"
-            android:layout_marginTop="80dp"/>
+            android:layout_marginTop="@dimen/dimen80"/>
 
         //text username
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/username"
-            style="@style/login1"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font16"
             android:backgroundTint="@color/white"
-            android:layout_marginTop="30dp"
+            android:layout_marginTop="@dimen/dimen30"
             android:layout_marginLeft="@dimen/dimen20"
             android:layout_marginRight="@dimen/dimen20"/>
 
@@ -35,7 +36,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/password"
-            style="@style/login1"
+            android:textSize="@dimen/font16"
+            android:textColor="@color/white"
             android:backgroundTint="@color/white"
             android:layout_marginTop="@dimen/dimen10"
             android:layout_marginLeft="@dimen/dimen20"
@@ -46,7 +48,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/login"
-            style="@style/Register"
+            android:background="@drawable/border_button"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font16"
+            android:gravity="center"
             android:layout_marginTop="@dimen/dimen20"
             android:layout_marginRight="@dimen/dimen20"
             android:layout_marginLeft="@dimen/dimen20"/>
@@ -56,7 +61,8 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="@string/or"
-            style="@style/login1"
+            android:textSize="@dimen/font16"
+            android:textColor="@color/white"
             android:gravity="center"
             android:layout_marginTop="@dimen/dimen20"
             android:layout_marginLeft="@dimen/dimen20"
@@ -67,7 +73,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/facebook"
-            style="@style/Register"
+            android:background="@drawable/border_button"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font16"
+            android:gravity="center"
             android:drawableLeft="@drawable/ic_welcome_fb_login"
             android:paddingLeft="60dp"
             android:paddingRight="90dp"
@@ -88,13 +97,16 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:text="@string/doesnt"
-                style="@style/login1"/>
+                android:textSize="@dimen/font16"
+                android:textColor="@color/white"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/register"
                 android:layout_marginLeft="5dp"
-                style="@style/textbold"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font16"
+                android:textStyle="bold"
                 android:onClick="register"/>
         </LinearLayout>
 </LinearLayout>

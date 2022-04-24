@@ -8,4 +8,15 @@
     <string name="facebook">CONNECT TO FACEBOOK</string>
     <string name="doesnt">doesn\'t have account?</string>
     <string name="register">Register</string>
+    <string name="email">Email</string>
+    <string name="phone">Phone</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="retype">Retype Password</string>
+    <string name="personal">Personal</string>
+    <string name="organization">Organization</string>
+    <string name="homeaddress">Home Address</string>
+    <string name="location">Default Location</string>
+    <string name="agree">Agree with Terms and Conditions</string>
+    <string name="register2">REGISTER</string>
 </resources>
