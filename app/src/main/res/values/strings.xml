@@ -19,4 +19,15 @@
     <string name="location">Default Location</string>
     <string name="agree">Agree with Terms and Conditions</string>
     <string name="register2">REGISTER</string>
+    <string name="almost">Almost There</string>
+    <string name="thank">Thank you for registering with us. One more</string>
+    <string name="thank2">step, you need to check your email</string>
+    <string name="thank3">to active your account</string>
+    <string name="verify">VERIFY</string>
+    <string name="verify2">Verify Your Account</string>
+    <string name="we">We have send verification code to your email</string>
+    <string name="enter">enter verification code here...</string>
+    <string name="send">SEND</string>
+    <string name="doesn">doesn\'t get the code?</string>
+    <string name="resend">Resend</string>
 </resources>
