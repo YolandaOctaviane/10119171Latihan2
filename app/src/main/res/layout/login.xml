@@ -95,7 +95,7 @@
             //text register (bisa di tekan)
             <TextView
                 android:layout_width="wrap_content"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:text="@string/doesnt"
                 android:textSize="@dimen/font16"
                 android:textColor="@color/white"

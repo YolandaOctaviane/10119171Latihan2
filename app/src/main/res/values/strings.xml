@@ -30,4 +30,20 @@
     <string name="send">SEND</string>
     <string name="doesn">doesn\'t get the code?</string>
     <string name="resend">Resend</string>
+    <string name="nama">Yolanda Octaviane</string>
+    <string name="bloodtype">Blood type : B</string>
+    <string name="tujuhlima">75</string>
+    <string name="bloodgive">Blood Give</string>
+    <string name="seratus">100</string>
+    <string name="bloodreceived">Blood Received</string>
+    <string name="tigaratus">300</string>
+    <string name="thanks">Thanks</string>
+    <string name="search">Search Donor</string>
+    <string name="search2">Search donor near you</string>
+    <string name="bloodneed">Blood Needed</string>
+    <string name="userneed">4 Users need blood</string>
+    <string name="message">Message</string>
+    <string name="newmessage">5 New Messages</string>
+    <string name="donorhistory">Donor History</string>
+    <string name="gives">5 Gives, 2 Received</string>
 </resources>

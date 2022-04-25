@@ -16,7 +16,7 @@ public class Verifikasi extends AppCompatActivity {
     }
 
     public void verify (View view) {
-        Intent intent = new Intent(this, Verifikasi_code class);
+        Intent intent = new Intent(this, Verifikasi_code.class);
         startActivity(intent);
     }
 }
